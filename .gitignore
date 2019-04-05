@@ -1,2 +1,17 @@
-.svn
-.DS_Store
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!.phpcs.xml.dist
